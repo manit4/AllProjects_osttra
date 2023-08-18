@@ -1,0 +1,14 @@
+
+public class First {
+	
+	public static void main(String[] args) {
+		
+		int i = 4, j = 5, k = 0;
+		
+		k = i + j;
+		
+		System.out.println(k);
+		
+	}
+
+}

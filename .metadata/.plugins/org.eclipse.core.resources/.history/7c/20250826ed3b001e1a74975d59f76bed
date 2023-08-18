@@ -1,0 +1,10 @@
+package com.osttra;
+
+public class First {
+	
+	public static void main(String[] args) {
+		
+		User user = new User("nav@123", "1234");
+	}
+
+}

@@ -1,0 +1,8 @@
+package com.osttra;
+
+public class User {
+	
+	String username;
+	String pasword;
+
+}

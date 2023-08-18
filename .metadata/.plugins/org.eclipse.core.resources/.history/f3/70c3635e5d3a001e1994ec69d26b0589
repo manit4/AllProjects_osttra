@@ -1,0 +1,86 @@
+public class First {
+	
+	int i = 4, j = 5, k;
+	
+	public static void main(String[] args) {
+		
+		First first = new First();
+		First second = new First(); 
+		
+		first.add();         
+		second.add();
+		
+		System.out.println("The k of first object is "+first.k);
+		System.out.println("The K of second object is "+second.k);
+			
+	}
+	
+	int add() {
+		
+		int localVar = 40;
+		
+		localVar = localVar + i + j;
+		localVar = localVar * j;
+		
+		return localVar;
+	}
+
+}
+
+
+
+
+//public class First {
+//	
+//	int i = 5;
+//	
+//	public static void main(String[] args) {
+//		
+//		First first = new First();
+//		First second = new First(); 
+//		
+//		System.out.println("The Object of First is "+first);
+//		System.out.println("the Object of second is "+second);
+//		
+//		first.add();         
+//		second.add();
+//		
+//		
+//	}
+//	
+//	void add() {
+//		
+//		int i = 4;
+//		System.out.println(this);
+//		
+//		System.out.println(this.i);
+//	}
+//
+//}
+
+
+
+//public class First {
+//	
+//	int i = 4, j = 5, k = 0;
+//	
+//	public static void main(String[] args) {
+//		
+//		First first = new First();     First second= new First();
+//		
+//		second.j = 100;
+//		
+//		first.add();
+//		
+//		second.add();
+//		
+//	}
+//	
+//	void add() {
+//		
+//		k = i + j;
+//		
+//		System.out.println(k);
+//	}
+//
+//}

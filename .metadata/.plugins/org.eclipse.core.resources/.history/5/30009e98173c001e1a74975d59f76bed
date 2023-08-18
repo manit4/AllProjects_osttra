@@ -1,0 +1,21 @@
+package com.osttra;
+
+public class ExceptionHandling {
+	
+	public static void main(String[] args) {
+		
+		try {
+			
+			System.out.println("first statement");
+			
+			int i = 4/0;
+			
+			System.out.println("second statement");
+		}catch (Exception e) {
+			
+		}
+		
+		
+	}
+
+}

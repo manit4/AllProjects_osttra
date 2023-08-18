@@ -1,0 +1,16 @@
+package com.osttra;
+
+public class Stringg {
+	
+	public static void main(String[] args) {
+		
+		String str1 = new String("      ");
+		
+		//System.out.println(str1.toString());
+		
+		//System.out.println(str1.isEmpty());
+		
+		System.out.println(str1.length());
+	}
+
+}

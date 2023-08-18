@@ -1,0 +1,17 @@
+package com.osttra;
+
+public class Objectt {
+	
+	public static void main(String[] args) {
+		
+		User user = new User("sds", "ffdrv", "dfvdf", "vfdfv", "egt");
+		
+		System.out.println(user.getUsername()+", "+user.getPasword()+", "
+		+user.getFirstName()+", "+user.getLastName()+", "+user.getEmail());
+		
+		System.out.println("-------------------");
+		
+		System.out.println();
+	}
+
+}

@@ -1,0 +1,19 @@
+package com.osttra;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class Mapp {
+	
+	public static void main(String[] args) {
+		
+		Map<Integer, String> map = new HashMap<>();
+		
+		map.put(100, "Anmol");
+		map.put(102, "Naman");
+		map.put(101, "Gaurav");
+		
+		System.out.println(map.size());
+		System.out.println(map.get(102));
+	}
+}

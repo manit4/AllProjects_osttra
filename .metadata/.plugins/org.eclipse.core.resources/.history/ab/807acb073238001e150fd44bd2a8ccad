@@ -1,0 +1,26 @@
+
+public class First {
+	
+	int i = 4, j = 5, k = 0;
+	
+	public static void main(String[] args) {
+		
+		
+		First first = new First();
+		
+		first.k = first.i + first.j;
+		System.out.println(first.k);
+		
+		first.k = first.i - first.j;
+		System.out.println(first.k);
+		
+		first.k = first.i * first.j;
+		System.out.println(first.k);
+		
+		first.k = first.i/first.j;
+		System.out.println(first.k);
+		
+		
+	}
+
+}

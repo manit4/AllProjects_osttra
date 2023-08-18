@@ -1,0 +1,16 @@
+
+public class First {
+	
+	int i = 4, j = 5, k = 0;
+	
+	public static void main(String[] args) {
+		
+		First f1 = new First();
+		
+		f1.k = f1.i + f1.j;
+		
+		System.out.println(f1.k);
+		
+	}
+
+}

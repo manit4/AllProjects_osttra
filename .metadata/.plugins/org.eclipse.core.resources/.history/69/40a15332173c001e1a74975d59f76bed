@@ -1,0 +1,10 @@
+package com.osttra;
+
+public class ExceptionHandling {
+	
+	public static void main(String[] args) {
+		
+		int i = 4/0;
+	}
+
+}

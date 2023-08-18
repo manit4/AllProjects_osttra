@@ -1,0 +1,10 @@
+import com.osttra.Car;
+
+public class Verna {
+	
+	void abs() {
+		
+		Car c = new Car
+	}
+
+}

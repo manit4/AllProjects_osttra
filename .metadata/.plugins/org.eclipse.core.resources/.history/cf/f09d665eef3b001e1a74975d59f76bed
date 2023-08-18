@@ -1,0 +1,11 @@
+
+public class Car {
+	
+	private int i = 4;
+	
+	public void accessI() {
+		
+		System.out.println(i);
+	}
+
+}

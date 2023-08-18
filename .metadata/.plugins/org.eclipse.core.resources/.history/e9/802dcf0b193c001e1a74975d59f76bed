@@ -1,0 +1,29 @@
+package com.osttra;
+
+import java.util.Scanner;
+
+public class ExceptionHandling {
+	
+	public static void main(String[] args) {
+		
+		try {
+			
+			Scanner sc = new Scanner(System.in);
+			
+			System.out.println("Enter denominator!!");
+			
+			int denominator = sc.nextInt();
+			
+			int i = 4/denominator;
+			
+			System.out.println("second statement");
+		}catch (Exception e) {
+			System.out.println("Please do not give 0 as denominator!!");
+			e.printStackTrace();
+			main(null);
+		}
+		
+		
+	}
+
+}

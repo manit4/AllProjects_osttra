@@ -1,0 +1,69 @@
+package com.osttra;
+
+import java.util.LinkedHashMap;
+import java.util.Map;
+import java.util.Set;
+
+public class Mapp {
+	
+	public static void main(String[] args) {
+		
+		Map<Integer, String> map = new LinkedHashMap<>();
+		
+		map.put(100, "Anmol");
+		map.put(102, "Naman");
+		map.put(101, "Gaurav");
+		
+		Set<Integer> set =  map.keySet();
+		
+		for(int value : set) {
+			
+			System.out.println(map.get(value));
+		}
+		
+		
+	}
+}
+
+
+//public class Mapp {
+//	
+//	public static void main(String[] args) {
+//		
+//		Map<Integer, String> map = new HashMap<>();
+//		
+//		map.put(100, "Anmol");
+//		map.put(102, "Naman");
+//		map.put(101, "Gaurav");
+//		
+//		Set<Integer> set =  map.keySet();
+//		
+//		for(int value : set) {
+//			
+//			System.out.println(map.get(value));
+//		}
+//		
+//		
+//	}
+//}
+
+
+//public class Mapp {
+//	
+//	public static void main(String[] args) {
+//		
+//		Map<Integer, String> map = new HashMap<>();
+//		
+//		map.put(100, "Anmol");
+//		map.put(102, "Naman");
+//		map.put(101, "Gaurav");
+//		
+//		System.out.println(map.size());
+//		System.out.println(map.get(102));
+//		
+//		map.put(102, "Khush");
+//		
+//		System.out.println(map.size());
+//		System.out.println(map.get(102));
+//	}
+//}

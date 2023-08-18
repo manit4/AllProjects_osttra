@@ -1,0 +1,54 @@
+public class First {
+	
+	int i = 5;
+	
+	public static void main(String[] args) {
+		
+		First first = new First();
+		First second = new First(); 
+		
+		System.out.println("The Object of First is "+first);
+		System.out.println("the Object of second is "+second);
+		
+		first.add();         
+		second.add();
+		
+		
+	}
+	
+	void add() {
+		
+		int i = 4;
+		System.out.println(this);
+		
+		System.out.println(this.i);
+	}
+
+}
+
+
+
+//public class First {
+//	
+//	int i = 4, j = 5, k = 0;
+//	
+//	public static void main(String[] args) {
+//		
+//		First first = new First();     First second= new First();
+//		
+//		second.j = 100;
+//		
+//		first.add();
+//		
+//		second.add();
+//		
+//	}
+//	
+//	void add() {
+//		
+//		k = i + j;
+//		
+//		System.out.println(k);
+//	}
+//
+//}

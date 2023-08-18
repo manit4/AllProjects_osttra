@@ -1,0 +1,16 @@
+
+n	java:S125,"<This block of commented-out lines of code should be removed.(Ãç¤¹8˜„€¢1HìRMAJORZ
+CODE_SMELL
+p	java:S106	"9Replace this use of System.out or System.err by a logger.(µÏ…èùÿÿÿÿ8ƒòä¡1HËRMAJORZ
+CODE_SMELL
+m	java:S125"<This block of commented-out lines of code should be removed.(Ãç¤¹8í¨Ë¡1HKRMAJORZ
+CODE_SMELL
+m
+java:S1854"5Remove this useless assignment to local variable "y".(ÒÚ¿“ùÿÿÿÿ8˜„€¢1HëRMAJORZ
+CODE_SMELL
+C
+java:S1220""Move this file to a named package.RMINORZ
+CODE_SMELL
+^
+java:S1481"&Remove this unused "y" local variable.(ÒÚ¿“ùÿÿÿÿ8·˜„¢1HçRMINORZ
+CODE_SMELL

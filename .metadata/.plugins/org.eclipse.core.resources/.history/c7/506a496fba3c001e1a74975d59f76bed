@@ -1,0 +1,7 @@
+package com.osttra.exception;
+
+public class AgeNotMorethan17Exception extends Exception {
+	
+	String message;
+
+}

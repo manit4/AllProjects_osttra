@@ -1,0 +1,260 @@
+package com.osttra;
+
+import java.util.LinkedHashSet;
+import java.util.Set;
+
+class A {
+	
+	int i = 4, j = 5;
+}
+
+public class Collectionn {
+	
+	public static void main(String[] args) {
+		
+		Set<A> set = new LinkedHashSet<>();
+		
+		A a1 = new A();    A a2 = new A();   A a3 = new A();
+		
+		set.add(a1);   set.add(a2);    set.add(a3);
+		
+		System.out.println(set.size());
+	}
+}
+
+//public class Collectionn {
+//	
+//	public static void main(String[] args) {
+//		
+//		Set<String> set = new TreeSet<>();
+//		
+//		set.add("Naman");
+//		set.add("Trijal");
+//		set.add("Deepti");
+//		set.add("Gaurav");
+//		
+//		System.out.println(set.size());
+//		
+//		Iterator<String> iterator = set.iterator();
+//		
+//		while( iterator.hasNext()) {
+//			
+//			System.out.println(iterator.next());
+//		}	
+//	}
+//}
+
+
+//public class Collectionn {
+//	
+//	public static void main(String[] args) {
+//		
+//		Set<String> set = new LinkedHashSet<>();
+//		
+//		set.add("Naman");
+//		set.add("Trijal");
+//		set.add("Deepti");
+//		set.add("Gaurav");
+//		
+//		System.out.println(set.size());
+//		
+//		Iterator<String> iterator = set.iterator();
+//		
+//		while( iterator.hasNext()) {
+//			
+//			System.out.println(iterator.next());
+//		}	
+//	}
+//}
+
+//public class Collectionn {
+//	
+//	public static void main(String[] args) {
+//		
+//		Set<String> set = new HashSet<>();
+//		
+//		set.add("Naman");
+//		set.add("Trijal");
+//		set.add("Deepti");
+//		set.add("Trijal");
+//		
+//		System.out.println(set.size());
+//		
+//		Iterator<String> iterator = set.iterator();
+//		
+//		while( iterator.hasNext()) {
+//			
+//			System.out.println(iterator.next());
+//		}	
+//	}
+//}
+
+//public class Collectionn {
+//	
+//	public static void main(String[] args) {
+//		
+//		Set<String> set = new HashSet<>();
+//		
+//		set.add("Naman");
+//		set.add("Trijal");
+//		set.add("Deepti");
+//		set.add("Trijal");
+//		
+//		System.out.println(set.size());
+//		
+//		for( String value : set) {
+//			
+//			System.out.println(value);
+//		}
+//		
+//		
+//	}
+//}
+
+
+//public class Collectionn {
+//	
+//	public static void main(String[] args) {
+//		
+//		Set<String> set = new HashSet<>();
+//		
+//		set.add("Naman");
+//		set.add("Trijal");
+//		set.add("Deepti");
+//		set.add("Trijal");
+//		
+//		System.out.println(set.size());
+//		
+//		
+//	}
+//}
+
+
+//public class Collectionn {
+//	
+//	public static void main(String[] args) {
+//		
+//		List<Integer> list = new ArrayList<>();
+//		
+//		list.add(34);
+//		list.add(12);
+//		list.add(3434);	
+//	}
+//}
+
+//public class Collectionn {
+//	
+//	public static void main(String[] args) {
+//		
+//		ArrayList<Integer> list = new ArrayList<>();
+//		
+//		list.add(34);
+//		list.add(12);
+//		list.add(3434);
+//		
+//		list.add(1,78);
+//		
+//		list.set(2, 1);
+//		
+//		System.out.println(list);
+//	}
+//}
+
+//public class Collectionn {
+//	
+//	public static void main(String[] args) {
+//		
+//		ArrayList<String> list = new ArrayList<>();
+//		
+//		list.add("34");
+//		list.add("12");
+//		list.add("Khush");
+//		
+//		list.add(1, "Parv");
+//		
+//		list.set(8, "Anmol");
+//		
+//		System.out.println(list);
+//	}
+//}
+
+//public class Collectionn {
+//	
+//	public static void main(String[] args) {
+//		
+//		ArrayList<String> list = new ArrayList<>();
+//		
+//		list.add("34");
+//		list.add("12");
+//		list.add("Khush");
+//		
+//		list.add(1, "Parv");
+//		
+//		list.set(0, "Anmol");
+//		
+//		System.out.println(list);
+//	}
+//}
+
+
+//public class Collectionn {
+//	
+//	public static void main(String[] args) {
+//		
+//		ArrayList list = new ArrayList();
+//		
+//		list.add(34);
+//		list.add(12);
+//		list.add("Khush");
+//		
+//		list.add(1, "Parv");
+//		
+//		list.set(0, "Anmol");
+//		
+//		System.out.println(list);
+//	}
+//}
+
+
+//public class Collectionn {
+//	
+//	public static void main(String[] args) {
+//		
+//		ArrayList list = new ArrayList();
+//		
+//		list.add(34);
+//		list.add(12);
+//		list.add("Khush");
+//		
+//		list.add(1, "Parv");
+//		
+//		list.set(0, "Anmol");
+//		
+//		for( int i = 0; i < list.size(); i++) {
+//			
+//			System.out.println(list.get(i));
+//		}
+//	}
+//
+//}
+
+//public class Collectionn {
+//	
+//	public static void main(String[] args) {
+//		
+//		ArrayList list = new ArrayList();
+//		
+//		list.add(34);
+//		list.add(12);
+//		list.add("Khush");
+//		
+//		//System.out.println(list.size());
+//		
+//		System.out.println(list.get(1));
+//		
+//		list.clear();
+//		
+//		System.out.println(list.size());
+//	}
+//
+//}

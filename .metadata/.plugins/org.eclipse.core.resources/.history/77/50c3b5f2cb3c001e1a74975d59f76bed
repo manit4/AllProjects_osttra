@@ -1,0 +1,154 @@
+package com.osttra;
+
+import java.util.HashSet;
+import java.util.Set;
+
+public class Collectionn {
+	
+	public static void main(String[] args) {
+		
+		Set<String> set = new HashSet<>();
+		
+		set.add("Naman");
+		set.add("Trijal");
+		set.add("Deepti");
+		set.add("Trijal");
+		
+		System.out.println(set.size());
+		
+		for( String value : set) {
+			
+			System.out.println(value);
+		}
+	}
+}
+
+
+//public class Collectionn {
+//	
+//	public static void main(String[] args) {
+//		
+//		List<Integer> list = new ArrayList<>();
+//		
+//		list.add(34);
+//		list.add(12);
+//		list.add(3434);	
+//	}
+//}
+
+//public class Collectionn {
+//	
+//	public static void main(String[] args) {
+//		
+//		ArrayList<Integer> list = new ArrayList<>();
+//		
+//		list.add(34);
+//		list.add(12);
+//		list.add(3434);
+//		
+//		list.add(1,78);
+//		
+//		list.set(2, 1);
+//		
+//		System.out.println(list);
+//	}
+//}
+
+//public class Collectionn {
+//	
+//	public static void main(String[] args) {
+//		
+//		ArrayList<String> list = new ArrayList<>();
+//		
+//		list.add("34");
+//		list.add("12");
+//		list.add("Khush");
+//		
+//		list.add(1, "Parv");
+//		
+//		list.set(8, "Anmol");
+//		
+//		System.out.println(list);
+//	}
+//}
+
+//public class Collectionn {
+//	
+//	public static void main(String[] args) {
+//		
+//		ArrayList<String> list = new ArrayList<>();
+//		
+//		list.add("34");
+//		list.add("12");
+//		list.add("Khush");
+//		
+//		list.add(1, "Parv");
+//		
+//		list.set(0, "Anmol");
+//		
+//		System.out.println(list);
+//	}
+//}
+
+
+//public class Collectionn {
+//	
+//	public static void main(String[] args) {
+//		
+//		ArrayList list = new ArrayList();
+//		
+//		list.add(34);
+//		list.add(12);
+//		list.add("Khush");
+//		
+//		list.add(1, "Parv");
+//		
+//		list.set(0, "Anmol");
+//		
+//		System.out.println(list);
+//	}
+//}
+
+
+//public class Collectionn {
+//	
+//	public static void main(String[] args) {
+//		
+//		ArrayList list = new ArrayList();
+//		
+//		list.add(34);
+//		list.add(12);
+//		list.add("Khush");
+//		
+//		list.add(1, "Parv");
+//		
+//		list.set(0, "Anmol");
+//		
+//		for( int i = 0; i < list.size(); i++) {
+//			
+//			System.out.println(list.get(i));
+//		}
+//	}
+//
+//}
+
+//public class Collectionn {
+//	
+//	public static void main(String[] args) {
+//		
+//		ArrayList list = new ArrayList();
+//		
+//		list.add(34);
+//		list.add(12);
+//		list.add("Khush");
+//		
+//		//System.out.println(list.size());
+//		
+//		System.out.println(list.get(1));
+//		
+//		list.clear();
+//		
+//		System.out.println(list.size());
+//	}
+//
+//}
