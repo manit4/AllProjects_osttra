@@ -1,7 +1,9 @@
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
-import java.sql.Statement;
+import java.sql.ResultSet;
+
+
 
 public class Main {
 
@@ -11,13 +13,36 @@ public class Main {
 
 		Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/osttra_jdbc", "root", "root");
 
-		PreparedStatement statement = conn.prepareStatement("delete from user where username = ?");
+		PreparedStatement statement = conn.prepareStatement("select * from user");
 		
-		statement.setString(1, "bcde");
+		ResultSet rs = statement.executeQuery();
 		
-		statement.executeUpdate();
+		while( rs.next()) {
+			
+			System.out.println(rs.getString(1)+", "+rs.getString(2)+", "+rs.getString(3));
+			
+		}
+		
+		
 	}
 }
+
+
+//public class Main {
+//
+//	public static void main(String[] args) throws Exception {
+//
+//		Class.forName("com.mysql.cj.jdbc.Driver");
+//
+//		Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/osttra_jdbc", "root", "root");
+//
+//		PreparedStatement statement = conn.prepareStatement("delete from user where username = ?");
+//		
+//		statement.setString(1, "bcde");
+//		
+//		statement.executeUpdate();
+//	}
+//}
 
 
 //public class Main {
