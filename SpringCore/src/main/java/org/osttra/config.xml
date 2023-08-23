@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- bean definitions here -->
+    
+   <!--  <bean name="restaurantBean1" class="org.osttra.Restaurant">
+    	<property name="rname" value="Abcde Restaurant"></property>
+    </bean>
+    
+     <bean name="restaurantBean2" class="org.osttra.Restaurant">
+    	<constructor-arg name="rname" value="gfsg"></constructor-arg>
+    </bean> -->
+    
+    <!--  <bean name="restaurantBean1" class="org.osttra.Restaurant">
+    </bean> -->
+    
+     <!-- <bean name="restaurantBean1" class="org.osttra.Restaurant">
+     	<constructor-arg name="tea" ref="teaBean"></constructor-arg>
+     </bean>
+     
+     <bean name="teaBean" class="org.osttra.Tea">
+     	<property name="name" value="Sugar-Free"></property>
+     </bean> -->
+     
+     <!-- <bean name="restaurantBean1" class="org.osttra.Restaurant">
+     	<property name="menuItems">
+     		<list>
+     			<value>Ham-Burger</value>
+     			<value>Cold-Drink</value>
+     			<value>Chowmein</value>
+     		</list>
+     	</property>
+     </bean> -->
+     
+     <!-- <bean name="restaurantBean1" class="org.osttra.Restaurant" scope="prototype">
+     	<property name="name" value="Gaurav Restaurant"></property>
+     </bean> -->
+     
+     <bean name="restaurantBean1" class="org.osttra.Restaurant" lazy-init="true">
+     </bean>
+    
+   
+
+</beans>

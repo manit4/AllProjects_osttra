@@ -1,16 +1,80 @@
 
-n	java:S125,"<This block of commented-out lines of code should be removed.(Ãç¤¹8˜„€¢1HìRMAJORZ
+t	java:S125‡"<This block of commented-out lines of code should be removed.(Êáá¤úÿÿÿÿ8¶±°–Ÿ1HÉ"RMAJORZ
 CODE_SMELL
-p	java:S106	"9Replace this use of System.out or System.err by a logger.(µÏ…èùÿÿÿÿ8ƒòä¡1HËRMAJORZ
+o	java:S125Ÿ"<This block of commented-out lines of code should be removed.(÷Ì»8€‚ÍœŸ1H¾®RMAJORZ
 CODE_SMELL
-m	java:S125"<This block of commented-out lines of code should be removed.(Ãç¤¹8í¨Ë¡1HKRMAJORZ
+p	java:S125"<This block of commented-out lines of code should be removed.(“ŞÉŞ8ğ¥ÙœŸ1H§ÂRMAJORZ
 CODE_SMELL
-m
-java:S1854"5Remove this useless assignment to local variable "y".(ÒÚ¿“ùÿÿÿÿ8˜„€¢1HëRMAJORZ
+n	java:S125'"<This block of commented-out lines of code should be removed.(Ãç¤¹8¶±°–Ÿ1H˜#RMAJORZ
 CODE_SMELL
-C
-java:S1220""Move this file to a named package.RMINORZ
+t	java:S125ã"<This block of commented-out lines of code should be removed.(Êáá¤úÿÿÿÿ8Ä¶»™Ÿ1HöERMAJORZ
 CODE_SMELL
-^
-java:S1481"&Remove this unused "y" local variable.(ÒÚ¿“ùÿÿÿÿ8·˜„¢1HçRMINORZ
+o	java:S125"<This block of commented-out lines of code should be removed.(Ãç¤¹8¶±°–Ÿ1HÉ#RMAJORZ
+CODE_SMELL
+o	java:S125"<This block of commented-out lines of code should be removed.(Ãç¤¹8¶±°–Ÿ1H¢#RMAJORZ
+CODE_SMELL
+o	java:S125º"<This block of commented-out lines of code should be removed.(÷Ì»8â½²›Ÿ1HèRMAJORZ
+CODE_SMELL
+t	java:S125ô"<This block of commented-out lines of code should be removed.(Êáá¤úÿÿÿÿ8Ô©ô–Ÿ1Hå3RMAJORZ
+CODE_SMELL
+u	java:S125–"<This block of commented-out lines of code should be removed.(úÀÄÈùÿÿÿÿ8¾ˆ‰äŸ1H¢ƒRMAJORZ
+CODE_SMELL
+F
+java:S1220""Move this file to a named package.H²"RMINORZ
+CODE_SMELL
+o	java:S125¥"<This block of commented-out lines of code should be removed.(‚ªš8š€»šŸ1HÅsRMAJORZ
+CODE_SMELL
+p	java:S125Ï"<This block of commented-out lines of code should be removed.(ÑÙ—Ì8¯Ñ®›Ÿ1Hİ›RMAJORZ
+CODE_SMELL
+u	java:S125¸"<This block of commented-out lines of code should be removed.(Êáá¤úÿÿÿÿ8„ÉÈšŸ1HÀRMAJORZ
+CODE_SMELL
+t	java:S125ƒ"<This block of commented-out lines of code should be removed.(úÀÄÈùÿÿÿÿ8¶±°–Ÿ1HŞ"RMAJORZ
+CODE_SMELL
+p	java:S125¡"<This block of commented-out lines of code should be removed.(“ŞÉŞ8¿’ŒŸ1H»ÔRMAJORZ
+CODE_SMELL
+t	java:S125ô"<This block of commented-out lines of code should be removed.(Êáá¤úÿÿÿÿ8 ŠšŸ1HÕkRMAJORZ
+CODE_SMELL
+t	java:S125µ"<This block of commented-out lines of code should be removed.(Êáá¤úÿÿÿÿ8’Šğ–Ÿ1HÖ.RMAJORZ
+CODE_SMELL
+p	java:S125³"<This block of commented-out lines of code should be removed.(“ŞÉŞ8ÑÑßœŸ1HíÅRMAJORZ
+CODE_SMELL
+p	java:S125ä"<This block of commented-out lines of code should be removed.(ÑÙ—Ì8ë«›Ÿ1HØ˜RMAJORZ
+CODE_SMELL
+p	java:S125×"<This block of commented-out lines of code should be removed.(“ŞÉŞ8ª¥ÒœŸ1Hé±RMAJORZ
+CODE_SMELL
+t	java:S125Ó"<This block of commented-out lines of code should be removed.(Êáá¤úÿÿÿÿ8§˜ó–Ÿ1Hú1RMAJORZ
+CODE_SMELL
+p	java:S125è"<This block of commented-out lines of code should be removed.(Ãç¤¹8Å½üäŸ1H‡¡RMAJORZ
+CODE_SMELL
+o	java:S125Ø"<This block of commented-out lines of code should be removed.(Ãç¤¹8¶±°–Ÿ1H#RMAJORZ
+CODE_SMELL
+o	java:S125ø"<This block of commented-out lines of code should be removed.(Ãç¤¹8¶±°–Ÿ1H¶#RMAJORZ
+CODE_SMELL
+t	java:S125:"<This block of commented-out lines of code should be removed.(úÀÄÈùÿÿÿÿ8”ò¶Ÿ1HæÛRMAJORZ
+CODE_SMELL
+t	java:S125×"<This block of commented-out lines of code should be removed.(Êáá¤úÿÿÿÿ8Üºƒ—Ÿ1HÉ7RMAJORZ
+CODE_SMELL
+o	java:S125"<This block of commented-out lines of code should be removed.(Ãç¤¹8î÷ÊäŸ1HÈœRMAJORZ
+CODE_SMELL
+p	java:S125ğ"<This block of commented-out lines of code should be removed.(“ŞÉŞ8‘ÇùœŸ1HˆÍRMAJORZ
+CODE_SMELL
+t	java:S125õ"<This block of commented-out lines of code should be removed.(Êáá¤úÿÿÿÿ8óšÂšŸ1HyRMAJORZ
+CODE_SMELL
+o	java:S125·"<This block of commented-out lines of code should be removed.(Ãç¤¹8í¨Ë¡1H³"RMAJORZ
+CODE_SMELL
+t	java:S125Ä"<This block of commented-out lines of code should be removed.(Êáá¤úÿÿÿÿ8˜”å™Ÿ1Hü\RMAJORZ
+CODE_SMELL
+t	java:S125–"<This block of commented-out lines of code should be removed.(Êáá¤úÿÿÿÿ8úÙÅ—Ÿ1HÃARMAJORZ
+CODE_SMELL
+o	java:S125Ô"<This block of commented-out lines of code should be removed.(Úñß¶8¶±°–Ÿ1H…#RMAJORZ
+CODE_SMELL
+o	java:S125“"<This block of commented-out lines of code should be removed.(‚ªš8…ÁšŸ1H­vRMAJORZ
+CODE_SMELL
+o	java:S125¢"<This block of commented-out lines of code should be removed.(Ãç¤¹8˜„€¢1H¹"RMAJORZ
+CODE_SMELL
+n	java:S125"<This block of commented-out lines of code should be removed.(Ãç¤¹8¶±°–Ÿ1HÙ#RMAJORZ
+CODE_SMELL
+t	java:S125f"<This block of commented-out lines of code should be removed.(úÀÄÈùÿÿÿÿ8Ú™ÑŸ1H£ëRMAJORZ
+CODE_SMELL
+p	java:S125”"<This block of commented-out lines of code should be removed.(Ãç¤¹8ÀååŸ1H‚®RMAJORZ
 CODE_SMELL
