@@ -1,13 +1,32 @@
 package org.osttra;
 
+import org.osttra.config.AutowiringConfig;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+import org.springframework.context.annotation.Scope;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
+import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Controller;
 
+@Component
+class Tea {
+	
+	String name = "abc";
+	
+	public Tea() {
+		System.out.println("inside Tea constr...");
+	}
+}
 
+@Controller(value = "abc")
 class Restaurant {
-
+	
+	@Autowired
+	Tea tea;
+	
 	void prepareTea() {
-		System.out.println("Your Tea is being prepared...");
+		System.out.println("Your Tea is being prepared..."+tea.name);
 	}
 	
 	public Restaurant() {
@@ -20,8 +39,11 @@ public class Runner {
 
 	public static void main(String[] args) {
 
-		ApplicationContext context = new ClassPathXmlApplicationContext("org/osttra/config.xml");
+//		ApplicationContext context = new ClassPathXmlApplicationContext("org/osttra/config.xml");
 
+		ApplicationContext context = new AnnotationConfigApplicationContext(AutowiringConfig.class);
+		
+		context.getBean("abc", Restaurant.class).prepareTea();
 		
 	}
 }
